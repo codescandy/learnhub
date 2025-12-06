@@ -110,7 +110,12 @@
 }
 
 
+.text-xs{
+	font-size: 0.75rem !important;
+}
+
 @import "./avatar";
 @import "./button";
 @import "./icon-shape";
 @import "./utilities";
+@import "./card";

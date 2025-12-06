@@ -14,7 +14,7 @@ $gray-950: #0a0a0a !default;
 
 $orange:       #E66239 !default;
 $red:          #FB2C36 !default;
-$green:        #09C82C !default; 
+$green:        #09C82C !default;
 $cyan:         #00B8DB !default;
 $yellow:       #F0B100 !default;
 
@@ -30,7 +30,8 @@ $min-contrast-ratio:   1 !default;
 $link-hover-decoration:                   none !default;
 $link-color:                              $gray-700 !default;
 $link-hover-color:                        $primary !default;
-
+$headings-color:              $gray-900 !default;
+$body-color:                  $gray-600 !default;
 
 $light: $gray-100 !default;
 $border-color: $gray-200 !default;
@@ -39,7 +40,7 @@ $border-color-translucent:   $gray-200 !default;
 $enable-negative-margins: true !default;
 $enable-rounded:              true !default;
 
-$headings-font-weight: 400 !default;
+$headings-font-weight: 600 !default;
 $grid-gutter-width:           2.5rem !default;
 
 // scss-docs-start position-map
@@ -109,11 +110,22 @@ $h6-font-size:                $font-size-base !default;
 
 // scss-docs-start border-radius-variables
 
-$border-radius:               50rem !default;
+$border-radius:               .375rem !default;
+$border-radius-sm:            .25rem !default;
+$border-radius-lg:            .5rem !default;
+$border-radius-xl:            1rem !default;
+$border-radius-xxl:           2rem !default;
+$border-radius-pill:          50rem !default;
 $badge-font-size:                   .875rem !default;
 
-$input-btn-padding-y: 0.65rem !default;
-$input-btn-padding-x: 1rem !default;
+
+$btn-border-radius:           50rem !default;
+$btn-border-radius-sm:        50rem !default;
+$btn-border-radius-lg:        50rem !default;
+$btn-font-weight:             600 !default;
+
+$input-btn-padding-y: 0.55rem !default;
+$input-btn-padding-x: 1.25rem !default;
 $table-th-font-weight:         400!default;
 
 
