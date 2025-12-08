@@ -20,13 +20,13 @@ $yellow:       #F0B100 !default;
 
 
 $primary:       $green !default;
-$secondary:     $gray-600 !default;
+$secondary:     $gray-200 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 
-$min-contrast-ratio:   1 !default;
+$min-contrast-ratio:   3.5 !default;
 $link-hover-decoration:                   none !default;
 $link-color:                              $gray-700 !default;
 $link-hover-color:                        $primary !default;
@@ -95,7 +95,7 @@ $spacers: (
 
 $font-family-base: 'Open Sans', sans-serif !default;
 $font-size-root:              null !default;
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-base:              .975rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .85 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
@@ -153,3 +153,4 @@ $avatar-size-md: 2.5rem !default;
 $avatar-size-lg: 3.5rem !default;
 $avatar-size-xl: 5rem !default;
 $avatar-size-xxl: 7.5rem !default;
+$avatar-size-xxxl: 11rem !default;
