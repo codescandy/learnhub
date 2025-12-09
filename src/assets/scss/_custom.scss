@@ -3,6 +3,10 @@
 .text-xs{
 	font-size: $font-xs !important;
 }
+.nav-link.active {
+  color: $primary !important;
+  
+}
 
 .circle-bg {
   position: absolute;
