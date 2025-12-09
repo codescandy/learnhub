@@ -26,7 +26,7 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 
-$min-contrast-ratio:   3.5 !default;
+$min-contrast-ratio:   2 !default;
 $link-hover-decoration:                   none !default;
 $link-color:                              $gray-700 !default;
 $link-hover-color:                        $primary !default;
@@ -93,13 +93,13 @@ $spacers: (
    ) !default;
 // scss-docs-end spacer-variables-maps
 
-$font-family-base: 'Open Sans', sans-serif !default;
+$font-family-base: 'Geist', sans-serif !default;
 $font-size-root:              null !default;
 $font-size-base:              .975rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .85 !default;
 $font-size-lg:                $font-size-base * 1.25 !default;
 
-$font-xs: 0.75rem !default;
+$font-xs: 13px !default;
 
 $h1-font-size:                $font-size-base * 2.5 !default;
 $h2-font-size:                $font-size-base * 2 !default;
